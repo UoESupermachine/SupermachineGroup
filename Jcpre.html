@@ -16,6 +16,7 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
@@ -163,6 +164,38 @@
             background: #f8d7da;
             color: #721c24;
         }
+
+        .footer {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+            font-size: 0.9rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .development-info {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .footer .contact-info {
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -262,20 +295,22 @@
         </div>
     </div>
 
+    <div class="footer">
+        <div class="development-info">
+            Developed by UoE Super Machine Group
+        </div>
+        <div class="contact-info">
+            For collaboration, please contact:
+            <a href="mailto:markus.mueller@ed.ac.uk">markus.mueller@ed.ac.uk</a> |
+            <a href="mailto:hongye.zhang@ed.ac.uk">hongye.zhang@ed.ac.uk</a>
+        </div>
+    </div>
+
+
+    
     <script>
         // API配置 - tunnel URL
-
-
-
-        
-
-        
         const API_BASE_URL = 'https://app.jiyuangao.uk';
-
-
-
-
-
 
 
         
